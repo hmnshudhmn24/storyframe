@@ -1,0 +1,11 @@
+numpy>=1.21
+tqdm
+opencv-python
+moviepy
+Pillow
+transformers>=4.30.0
+torch>=1.12.0
+sentencepiece
+accelerate
+streamlit
+jupyter

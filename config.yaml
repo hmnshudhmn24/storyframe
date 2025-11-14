@@ -1,0 +1,12 @@
+extract:
+  fps: 1
+  max_frames: 60
+caption:
+  image_caption_model: "Salesforce/blip-image-captioning-base"
+  caption_batch: 8
+script:
+  text_model: "google/flan-t5-small"
+  max_input_tokens: 1024
+  max_output_tokens: 512
+misc:
+  device: "cpu"

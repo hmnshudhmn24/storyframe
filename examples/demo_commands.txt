@@ -1,0 +1,4 @@
+# STORYFRAME demo
+python extract_frames.py --video input.mp4 --out_dir frames
+python caption_frames.py --frames_dir frames --out captions.jsonl
+python generate_script.py --captions captions.jsonl --out script.txt
